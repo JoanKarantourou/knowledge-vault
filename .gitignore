@@ -1,0 +1,42 @@
+# Node
+node_modules/
+.next/
+pnpm-lock.yaml
+npm-debug.log*
+.yarn/*
+.yarnrc.yml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+.env.*
+
+# .NET
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.swp
+*.DotSettings.user
+
+# Rust
+target/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+
+# Docker / misc
+docker/*.env
+*.DS_Store
+*.log
+*.tmp
+
+# IDE
+.vscode/
+.idea/

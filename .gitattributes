@@ -1,0 +1,25 @@
+* text=auto
+
+# Ensure LF for scripts/code across OSes
+*.sh  text eol=lf
+*.ps1 text eol=crlf
+*.py  text eol=lf
+*.ts  text eol=lf
+*.tsx text eol=lf
+*.js  text eol=lf
+*.jsx text eol=lf
+*.cs  text eol=lf
+*.csproj text eol=lf
+*.toml text eol=lf
+*.tf  text eol=lf
+*.yaml text eol=lf
+*.yml  text eol=lf
+*.md   text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.ico binary
